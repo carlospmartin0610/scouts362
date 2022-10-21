@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="icon" href="../img/minilogo.png"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!--jQuery-->
+    <script src="../scripts/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/uniformidad.css" />
+    <title>UNIFORMIDAD</title>
+  </head>
+
+  <body>
+
+    <!--CABECERA--->
+    <header class="header">
+      <div id="logogrupo"><img class="header-img" href="index.html"  src="../img/logogrupo.png" /></div>
+      <div class="header-title">GRUPO SCOUT TIERRA DEL FUEGO</div>       
+      <div id="flor"><img class="header-img" src="../img/flordelis.png"></div>
+    </header>
+
+    <!--MENU--->
+    <div class="menu">
+      <nav class="navbar navbar-expand-lg">
+        <button
+          class="navbar-toggler nav-bar-color navbar-light"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav w-100 justify-content-around">
+
+            <!--PAGINA DE INICIO--->
+            <li class="nav-item active">
+              <a class="nav-link rounded" href="index.html">
+                INICIO <span class="sr-only">(current)</span></a>
+            </li>
+
+            <!--QUIENES SOMOS (DESPLEGABLE)--->
+            <li class="nav-item dropdown">
+              <a class="nav-link rounded" href="historia.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                ¿QUIÉNES SOMOS?
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="historia.html">HISTORIA</a>
+                <a class="dropdown-item" href="mundoscout.html">MUNDO SCOUT</a>
+                <a class="dropdown-item" href="secciones.html">SECCIONES</a>
+                <a class="dropdown-item" href="funcionamiento.html">¿CÓMO FUNCIONAMOS?</a>
+              </div>
+            </li>
+            
+            <!--QUE HACEMOS (DESPLEGABLE)--->
+            <li class="nav-item dropdown">
+              <a class="nav-link rounded" href="campateca.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                ¿QUÉ HACEMOS?
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="reuniones.html">REUNIONES</a>                    
+                <a class="dropdown-item" href="metodologia.html">METODOLOGÍA</a>
+                <a class="dropdown-item" href="campateca.html">CAMPATECA</a>
+              </div>
+            </li>
+
+            <!--RECURSOS (DESPLEGABLE)--->
+            <li class="nav-item dropdown">
+              <a class="nav-link rounded" href="uniformidad.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                RECURSOS
+              </a>
+              <div class="dropdown-menu"aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">UNIFORMIDAD</a>
+                <a class="dropdown-item" href="documentacion.html">DOCUMENTACIÓN</a>
+                <a class="dropdown-item" href="becas.html">BECAS</a>
+              </div>
+            </li>
+            
+            <!--INSCRIPCION--->
+            <li class="nav-item active">
+              <a class="nav-link rounded" href="inscripcion.html">
+                INSCRIPCIÓN <span class="sr-only">(current)</span></a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+    </div>
+    
+    <!--MAIN-->
+    <main class="container-fluid"> 
+        <div class="container-fluid c2">     
+          <div class="col-12" >
+            <h1>UNIFORMIDAD</h1>
+          </div>   
+          <br><br> 
+          <div class="row ropa">
+            <div class="col-5 caja" >
+              <h3>POLO SCOUT</h3><br>
+              <img src="../img/fotopolo.png"/>
+              <br><b>PRECIO NIÑO: 15€ <hr style="border-top: 2px solid red;"> PRECIO ADULTO: 16€</b>
+            </div>
+            <div class="col-5 caja" >
+              <h3>FORRO DE GRUPO</h3><br>
+              <img id="forro" src="../img/fotoforro.png"/>
+              <br><br><b>PRECIO: 20€</b>
+            </div>
+          </div>       
+          <br><br><br>     
+          <div class="col-12 insig" >
+            <h2 >INSIGNIAS</h2>
+            <br>
+            <b style="font-size:20px">PRECIO: 3€</b>
+          </div>
+          <br><br><br>
+          <div class="row insignias">
+            <div class="caja" >
+                <img src="../img/insigniacolonia.png"/>
+                <hr>
+                <h4>COLONIA</h4>
+            </div>
+            <div class="caja" >
+                <img src="../img/insigniamanada.png"/>
+                <hr>
+                <h4>MANADA</h4>
+            </div>              
+          </div>
+          <br><br> 
+          <div class="row insignias">
+            <div class="caja" >
+                <img src="../img/insigniatropa.png"/>
+                <hr>
+                <h4>TROPA</h4>
+            </div>
+            <div class="caja" >
+                <img src="../img/insigniaesculta.png"/>
+                <hr>
+                <h4>ESCULTA</h4>
+            </div>              
+          </div>
+          <br><br> 
+          <div class="row insignias">
+            <div class="caja" >
+                <img src="../img/insigniaclan.png"/>
+                <hr>
+                <h4>CLAN</h4>
+            </div>
+            <div class=" caja2">
+              <div class=" caja" >
+                  <img src="../img/insigniascouter.png"/>
+                  <hr>
+                  <h4>SCOUTER</h4>
+              </div>    
+              <div class=" caja" >
+                <img src="../img/insigniagrupo.png"/>
+                <hr>
+                <h4>GRUPO</h4>
+              </div> 
+            </div>         
+          </div> 
+          <br> 
+          <p ><i><b>Después de comprar la primera insignia, si el educando progresa, se podrá cambiar esta por la siguiente sin ningún coste. En caso de que
+            quiera quedársela, entonces la nueva insignia tiene el mismo precio que la primera.</b></i></p>
+          <br><br><br>
+          <div class="col-12 col" id="colocacion">
+            <h2 style="text-align:center">COLOCACIÓN DE LAS INSIGNIAS</h2>
+            <br><br><img src="../img/colocacioninsignia.png"/><br><br>
+            <p>Si deseas adquirir cualquier cosa de uniformidad, no dudes en contactar con <b>Malak(618784767) o Nuria(656195276).</b></p>
+          </div>          
+      </div>    
+    </main>
+    
+    <!--FOOTER-->
+    <footer>
+      <div id="footer-logo"><img href="index.html"  src="../img/logoGrupoBlanco.png" /></div>
+      <div class="footer-socials">
+        <div><a href="mailto:gruposcout362@gmail.com">gruposcout362@gmail.com</a></div>
+        <div><a href="https://www.google.com/maps/place/Grupo+Scout+362,+Tierra+del+Fuego/@40.4022705,-3.6981395,16z/data=!4m5!3m4!1s0x0:0x8ffa55668768ac4a!8m2!3d40.4002241!4d-3.7027403">
+           C/ Arquitectura, 3, 28005, Madrid </a></div>
+        <div><a href="https://www.scout.es/">ASDE (Asociación de Scouts de España)</a></div>
+      </div>       
+      <div class="footer-image"><a href="https://www.facebook.com/GrupoScout362TierraDelFuego/"><img src="../img/logo_fb.png" /></a></div>
+      <div class="footer-image"><a href="https://www.instagram.com/362tierradelfuego/"><img src="../img/logo_insta.png" /></a></div>
+    </footer>
+
+  </body>
+</html>
