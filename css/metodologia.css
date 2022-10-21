@@ -1,0 +1,70 @@
+.c2{
+    width:80%;
+    margin-bottom: 50px;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+.intro img{
+    justify-content: center;
+}
+i{
+    font-size: 25px;
+    text-align: center;
+}
+#autor{
+    text-align: center;
+}
+.frase div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.frase img{
+    width: 300px;
+}
+.saludos{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.saludos img{
+    width:100%;
+}
+i{
+   font-size: 28px;
+}
+
+@media (max-width: 550px) {
+    h1,h2,h3,i{
+        font-size: 20px;       
+    }
+    h1{
+        text-align: center;
+    }
+    .col-6 {       
+        flex: 100%;
+        max-width: 100%;
+        
+    } 
+    .col.center, .col-12.intro, div.container, .container-fluid.c2{
+        padding: 0;
+    } 
+    .c2 {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    h4,b,p{
+        font-size:12px;
+    } 
+    .frase img {
+        width: 100px;
+    }
+
+  }

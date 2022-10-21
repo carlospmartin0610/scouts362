@@ -1,0 +1,126 @@
+main{
+    margin: 60px 0;
+}
+.c2{
+    width:80%;
+}
+h1{
+    text-align: center;
+}
+p{
+    font-size: 22px;
+}
+.ropa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.caja{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.8);
+    color:white;
+    padding: 20px 0;
+}
+.caja b{
+    text-align: center;
+}
+.ropa img{
+    width: 300px;
+}
+#forro{
+    width:350px;
+    height:296px;
+}
+
+.insig{
+    text-align: center;
+}
+.insignias{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.insignias .caja{
+    width: 47%;
+}
+.insignias img{
+    width: 95%;
+    height: 200px;
+}
+.caja2 img{
+    width: 95%;
+    height: 200px;
+}
+.caja2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 47%;
+    justify-content: space-between;
+}
+.insignias hr{
+    border-top: 3px solid red;
+    width: 300px;
+}
+.caja2 hr{
+    width: 150px;
+}
+.caja2 div{
+    width:45%;
+}
+
+#colocacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#colocacion img{
+    justify-self: center;
+    width: 800px;
+}
+
+@media (max-width: 550px) {
+    h1,h2,p{
+        font-size: 20px;       
+    }
+    h3,b{
+        font-size: 12px;
+    }
+    .col-6 {       
+        flex: 100%;
+        max-width: 100%;
+        
+    } 
+    h4,b,p{
+        font-size:12px;
+    } 
+    .insignias hr {     
+        width: 40px;
+    } 
+    #colocacion img {
+        justify-self: center;
+        width: 240px;
+    }
+    .ropa img {
+        width: 50px;
+    }
+    .descarga img {
+        width: 40px;
+    }  
+    .insignias img {
+       
+        height: 50px;
+    }
+    #forro {
+        width: 50px;
+        height: 60px;
+    }
+    .col-12.intro, .container-fluid{
+        padding: 0;
+    } 
+
+  }

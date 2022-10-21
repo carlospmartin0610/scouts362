@@ -1,0 +1,32 @@
+.center div{
+    display: flex;
+    justify-content: center;
+}
+.i4ewOd-pzNkMb-tJHJj{
+    height: 500px;
+}
+.iconocampa{
+    margin-right:5px;
+}
+@media (max-width: 550px) {
+    h1,h2,h3{
+        font-size: 20px;       
+    }
+    .col-6 {       
+        flex: 100%;
+        max-width: 100%;
+        
+    } 
+    .c2 {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    p{
+        font-size: 10px;
+    }
+    .iconocampa {
+        width: 25px;
+        height: 25px;
+
+    }
+  }

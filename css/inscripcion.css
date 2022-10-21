@@ -1,0 +1,97 @@
+p{
+    text-align: justify;
+    font-size: 20px;
+}
+h1{
+    font-size:40px;
+    text-align: center;
+}
+
+.box{
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    padding: 20px 30px;
+}
+.columna{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.columna hr{
+    width: 70%;
+    border-top: 2px solid red;
+}
+.box img{
+    width: 300px;
+}
+#descarga{
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    padding: 10px 0;
+}
+.doc{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 30px;
+}
+.doc a{
+    font-size: 20px;
+    color: white
+}
+.pdf{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 60px;
+}
+.pdf img{
+    width:70px;
+}
+
+@media (max-width: 550px) {
+    h1{
+        font-size: 20px;
+        text-align: center;       
+    }
+    h4{
+        font-size: 20px;
+    }
+    
+    .col-6 {       
+        flex: 100%;
+        max-width: 100%;
+        
+    } 
+    main{
+        width: 100%;
+    }
+    #pasos {
+       
+        padding:0;
+    }   
+    p,b {        
+        font-size: 12px;
+        padding:0;
+        width: 100%;
+        
+    }
+    div.col-3.pdf{
+        padding:10px;
+    }
+    a > i{
+        font-size: 9px;
+    }
+    .columna {       
+        padding: 0px;
+    }
+    .pdf img{
+        width: 15px;
+    }  
+    .box img {
+        width: 30px;
+    }  
+  }

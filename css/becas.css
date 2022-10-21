@@ -1,0 +1,81 @@
+.c2{
+    width:80%;
+    margin-bottom: 50px;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+#pasos{
+    background-color: rgba(0,0,0,0.8);
+    color:white;
+    padding: 50px 50px;
+}
+.row div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.row p{
+    margin-bottom: 0;
+}
+.texto{
+    justify-content: flex-start;
+}
+.numero{
+    justify-content: center;
+}
+.vr{
+    border-left: 3px solid rgb(184, 0, 0);
+    padding-left: 50px;
+}
+#descarga{
+    background-color: rgba(0,0,0,0.6);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 0;
+}
+
+.doc{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 30px;
+}
+.doc a{
+    font-size: 20px;
+    color: white
+}
+.pdf{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 60px;
+}
+.pdf img{
+    width:70px;
+}
+
+@media (max-width: 550px) {
+    h1{
+        font-size: 20px;       
+    }
+    .col.center, .col-12, .col-8, .col-7, div.container, .container-fluid.c2{
+        padding: 0;
+    }
+    #pasos{
+        padding:10px;
+    }
+         
+    p,b {        
+        font-size: 10px;
+        padding:0;
+        width: 100%;
+        
+    }
+    img {
+        width: 30px;
+    }  
+
+  }

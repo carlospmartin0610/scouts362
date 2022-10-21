@@ -1,0 +1,78 @@
+.texto{
+    padding:0 0 0 100px;
+}
+.imagenes{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main img{
+    width: 700px;
+}
+p{
+    text-align:justify;
+}
+.tiras{
+    margin:20px 0;
+}
+
+.tira{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tira img{
+    width:700px;
+    height: 150px;
+}
+#tira1{
+    padding-left: 100px;
+}
+#tira1>img{
+    width: 744px;
+}
+#tira2{
+    padding-right: 0;
+}
+
+@media (max-width: 550px) {
+    h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .col-6 {       
+        flex: 100%;
+        max-width: 100%;
+        
+    }    
+    .texto {        
+        font-size: 12px;
+        padding:0;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    main img {
+        width: 240px;
+        padding:0;
+    }
+    #tira1>img {
+        width: 240px;
+        height: 65px;
+        padding: 1%;
+    }
+    #tira1{
+        padding: 0px;
+    }
+    #tira2>img {
+        width: 240px;
+        height: 65px;
+        padding:1%;
+    }
+    #tira2{
+        padding:0;
+    }
+
+  }

@@ -1,0 +1,51 @@
+h5{
+    text-align: center;
+}
+h1{
+    font-size: 0px;       
+}
+#doc{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px 20px;
+    margin-bottom: 40px;
+}
+.descripcion{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+}
+.descripcion a{
+    font-size: 20px;
+    color: white
+}
+.pdf{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 40px;
+}
+.descarga img{
+    width:70px;
+}
+@media (max-width: 550px) {
+    h1{
+        font-size: 20px;       
+    }
+    .col-6 {       
+        flex: 100%;
+        max-width: 100%;
+        
+    }    
+    i,h5 {        
+        font-size: 12px;
+        padding:0;
+        width: 100%;
+        
+    }
+    .descarga img {
+        width: 40px;
+    }  
+
+  }
